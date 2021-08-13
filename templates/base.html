@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Meme site">
+    <meta name="keywords" content="History memes, History, Communism, Memes">
+    <meta name="author" content="Johannes Holst">
+    <title>MemeBuff</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+
+    {% block links %}
+    {% endblock %}
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">History</span> <span>Memes</span> </h1>
+            </div>
+            <nav>
+                {% include "menu.html" %}
+            </nav>
+        </div>
+    </header>
+
+
+{% block content %}
+
+
+{% endblock %}
+
+      <footer>
+        <p>MemeBuff , copyright &copy; 2021</p>
+      </footer>
+
+</body>
+</html>

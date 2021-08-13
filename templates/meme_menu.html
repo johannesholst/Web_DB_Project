@@ -1,0 +1,33 @@
+
+    <div id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="{{ url_for('static', filename='img/HistoryIcon.png') }}">
+                <ul>
+                    <li class="menu__link">
+                        <a href="{{ url_for('HistoryMemes') }}">HistoryMemes</a>
+                    </li>
+                </ul>
+                <p>Best History Memes</p>
+            </div>
+            <div class="box">
+                <img src="{{ url_for('static', filename='img/WorldWarIcon.png') }}">
+                <ul>
+                    <li class="menu__link">
+                        <a href="{{ url_for('WorldWar') }}">WorldWar</a>
+                    </li>
+                </ul>
+                <p>Best World War Memes</p>
+            </div>
+            <div class="box">
+                <img src="{{ url_for('static', filename='img/ComiIcon.png') }}">
+
+                <ul>
+                    <li class="menu__link">
+                        <a href="{{ url_for('Communist') }}">Communist</a>
+                    </li>
+                </ul>
+                <p>Best Communist Memes</p>
+            </div>
+        </div>
+    </div>

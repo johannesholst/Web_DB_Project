@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{%  block content %}
+
+
+    {% include "meme_menu.html" %}
+
+    <div id="memes">
+        <div class="container">
+        </div>
+    </div>
+
+    <div class="boxes1">
+        <div class="container">
+            <div class="box1">
+                <<img src="{{ url_for('static', filename='img/Communist/ab9.jpg') }}">
+            </div>
+
+            <div class="box1">
+                <img src="{{ url_for('static', filename='img/Communist/AllGets.jpg') }}">
+            </div>
+
+            <div class="box1">
+                <img src="{{ url_for('static', filename='img/Communist/b4c.jpg') }}">
+            </div>
+        </div>
+    </div>
+
+    <div class="boxes1">
+        <div class="container">
+            <div class="box1">
+                <img src="{{ url_for('static', filename='img/Communist/Book.jpg') }}">
+            </div>
+
+            <div class="box1">
+                <img src="{{ url_for('static', filename='img/Communist/communism_memes.jpg') }}">
+            </div>
+
+            <div class="box1">
+                <img src="{{ url_for('static', filename='img/Communist/KGB.jpg') }}">
+            </div>
+        </div>
+    </div>
+
+    <div class="boxes1">
+        <div class="container">
+            <div class="box1">
+                <img src="{{ url_for('static', filename='img/Communist/LeftWing.jpg') }}">
+            </div>
+
+            <div class="box1">
+                <img src="{{ url_for('static', filename='img/Communist/LeninInvitesMeme.png') }}">
+            </div>
+
+
+            <div class="box1">
+                <img src="{{ url_for('static', filename='img/Communist/meme-8.jpg') }}">
+            </div>
+        </div>
+    </div>
+
+    <div class="boxes1">
+        <div class="container">
+            <div class="box1">
+                <img src="{{ url_for('static', filename='img/Communist/ourmeme.jpg') }}">
+            </div>
+
+            <div class="box1">
+                <img src="{{ url_for('static', filename='img/Communist/SharePen.jpg') }}">
+            </div>
+
+            <div class="box1">
+                <img src="{{ url_for('static', filename='img/Communist/SkurtCom.png') }}">
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

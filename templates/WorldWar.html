@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block  content %}
+
+
+    {% include "meme_menu.html" %}
+
+
+    <div id="memes">
+        <div class="container">
+
+        </div>
+    </div>
+
+    <div class="boxes1">
+        <div class="container">
+            <div class="box1">
+                <img src="{{ url_for('static', filename='img/WWmeme/AustrianGermanHungarianMeme.jpg') }}">
+            </div>
+            <div class="box1">
+                <img src="{{ url_for('static', filename='img/WWmeme/AustriaMemeww1.png') }}">
+            </div>
+            <div class="box1">
+                <img src="{{ url_for('static', filename='img/WWmeme/meme1.jpg') }}">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="boxes1">
+      <div class="container">
+        <div class="box1">
+            <img src="{{ url_for('static', filename='img/WWmeme/meme2.png') }}">
+        </div>
+        <div class="box1">
+            <img src="{{ url_for('static', filename='img/WWmeme/worstTradeDealMeme.jpg') }}">
+        </div>
+        <div class="box1">
+            <img src="{{ url_for('static', filename='img/WWmeme/NaziBar.jpg') }}">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="boxes1">
+    <div class="container">
+      <div class="box1">
+          <img src="{{ url_for('static', filename='img/WWmeme/340.jpg') }}">
+      </div>
+      <div class="box1">
+          <img src="{{ url_for('static', filename='img/WWmeme/WW1Start.jpg') }}">
+      </div>
+      <div class="box1">
+          <img src="{{ url_for('static', filename='img/WWmeme/WWforGender.png') }}">
+    </div>
+  </div>
+</div>
+
+<div class="boxes1">
+  <div class="container">
+    <div class="box1">
+        <img src="{{ url_for('static', filename='img/WWmeme/Tungvatten.jpg') }}">
+    </div>
+    <div class="box1">
+        <img src="{{ url_for('static', filename='img/WWmeme/Pötterman.jpg') }}">
+    </div>
+    <div class="box1">
+        <img src="{{ url_for('static', filename='img/WWmeme/GenderJapan.jpeg') }}">
+  </div>
+</div>
+</div>
+
+
+{% endblock %}

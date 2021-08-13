@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block  content %}
+
+        <li class="post_comment_link">
+        <a href = "{{ url_for('new_comment') }}">post a comment</a>
+        </a>
+    </li>
+
+   <body>
+      <table border = 2>
+         <thead>
+            <td>Name</td>
+            <td>Comment</td>
+         </thead>
+
+         {% for row in rows %}
+            <tr>
+               <td>{{row["name"]}}</td>
+               <td>{{row["comment"]}}</td>
+            </tr>
+         {% endfor %}
+      </table>
+   </body>
+
+{% endblock %}
